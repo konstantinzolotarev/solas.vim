@@ -49,6 +49,7 @@ hi Noise ctermfg=255 ctermbg=NONE cterm=NONE guifg=#eeeeee guibg=NONE gui=NONE
 " elixir
 hi link elixirBlockInline Define
 hi link elixirBlockDefinition Define
+hi link elixirKeyword Define
 
 " php
 hi link phpFunction Function
