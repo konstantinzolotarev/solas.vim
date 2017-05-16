@@ -46,6 +46,10 @@ hi Key ctermfg=116 ctermbg=NONE cterm=NONE guifg=#87d7d7 guibg=NONE gui=NONE
 hi Special ctermfg=109 ctermbg=NONE cterm=NONE guifg=#87afaf guibg=NONE gui=NONE
 hi Noise ctermfg=255 ctermbg=NONE cterm=NONE guifg=#eeeeee guibg=NONE gui=NONE
 
+" elixir
+hi link elixirBlockInline Define
+hi link elixirBlockDefinition Define
+
 " php
 hi link phpFunction Function
 hi link phpMethod Function
