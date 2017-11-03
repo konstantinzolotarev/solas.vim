@@ -35,10 +35,11 @@ hi NonText guifg=#63888E guibg=NONE gui=NONE
 hi Function ctermfg=222 ctermbg=NONE cterm=NONE guifg=#ffdf87 guibg=NONE gui=NONE
 hi String ctermfg=107 ctermbg=NONE cterm=NONE guifg=#87af5f guibg=NONE gui=NONE
 hi Identifier ctermfg=103 ctermbg=NONE cterm=NONE guifg=#8787af guibg=NONE gui=NONE
-hi Statement ctermfg=103 ctermbg=NONE cterm=NONE guifg=#8787af guibg=NONE gui=NONE
+hi Statement ctermfg=209 ctermbg=NONE cterm=NONE guifg=#ff875f guibg=NONE gui=NONE
 hi Comment ctermfg=109 ctermbg=NONE cterm=NONE guifg=#87afaf guibg=NONE gui=NONE
 hi Type ctermfg=215 ctermbg=NONE cterm=NONE guifg=#ffaf5f guibg=NONE gui=NONE
-hi Keyword ctermfg=215 ctermbg=NONE cterm=NONE guifg=#ffaf5f guibg=NONE gui=NONE
+hi Keyword ctermfg=214 ctermbg=NONE cterm=NONE guifg=#ffaf00 guibg=NONE gui=NONE
+" hi Constant ctermfg=75 ctermbg=NONE cterm=NONE guifg=#5fafff guibg=NONE gui=NONE
 hi Constant ctermfg=116 ctermbg=NONE cterm=NONE guifg=#87d7d7 guibg=NONE gui=NONE
 hi Bracket ctermfg=109 ctermbg=NONE cterm=NONE guifg=#87afaf guibg=NONE gui=NONE
 hi Operator ctermfg=255 ctermbg=NONE cterm=NONE guifg=#eeeeee guibg=NONE gui=NONE
@@ -50,6 +51,30 @@ hi Noise ctermfg=255 ctermbg=NONE cterm=NONE guifg=#eeeeee guibg=NONE gui=NONE
 hi link elixirBlockInline Define
 hi link elixirBlockDefinition Define
 hi link elixirKeyword Define
+
+" Golang
+hi def link     goType              Key
+hi def link     goSignedInts        Key
+hi def link     goUnsignedInts      Key
+hi def link     goFloats            Key
+hi def link     goComplexes         Key
+
+hi def link   	goVarAssign         Normal
+hi def link   	goVarDefs           Normal
+hi def link     goImport            Include
+hi def link     goPackage           Define
+hi def link     goVar               Define
+hi def link     goConst             Define
+hi def link     goDeclaration       Define
+hi def link     goTypeDecl          Define
+hi def link     goDeclType          Define
+
+hi def link 		goReceiverType			Special
+
+hi def link     goStatement         Statement
+hi def link     goConditional       Conditional
+hi def link     goLabel             Label
+hi def link     goRepeat            Repeat
 
 " php
 hi link phpFunction Function
