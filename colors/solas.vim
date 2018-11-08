@@ -36,7 +36,7 @@ hi Function ctermfg=222 ctermbg=NONE cterm=NONE guifg=#ffdf87 guibg=NONE gui=NON
 hi String ctermfg=107 ctermbg=NONE cterm=NONE guifg=#87af5f guibg=NONE gui=NONE
 hi Identifier ctermfg=103 ctermbg=NONE cterm=NONE guifg=#8787af guibg=NONE gui=NONE
 hi Statement ctermfg=209 ctermbg=NONE cterm=NONE guifg=#ff875f guibg=NONE gui=NONE
-hi Comment ctermfg=109 ctermbg=NONE cterm=NONE guifg=#87afaf guibg=NONE gui=NONE
+hi Comment ctermfg=248 ctermbg=NONE cterm=NONE guifg=#87afaf guibg=NONE gui=NONE
 hi Type ctermfg=215 ctermbg=NONE cterm=NONE guifg=#ffaf5f guibg=NONE gui=NONE
 hi Keyword ctermfg=214 ctermbg=NONE cterm=NONE guifg=#ffaf00 guibg=NONE gui=NONE
 " hi Constant ctermfg=75 ctermbg=NONE cterm=NONE guifg=#5fafff guibg=NONE gui=NONE
@@ -44,7 +44,7 @@ hi Constant ctermfg=116 ctermbg=NONE cterm=NONE guifg=#87d7d7 guibg=NONE gui=NON
 hi Bracket ctermfg=109 ctermbg=NONE cterm=NONE guifg=#87afaf guibg=NONE gui=NONE
 hi Operator ctermfg=255 ctermbg=NONE cterm=NONE guifg=#eeeeee guibg=NONE gui=NONE
 hi Key ctermfg=116 ctermbg=NONE cterm=NONE guifg=#87d7d7 guibg=NONE gui=NONE
-hi Special ctermfg=109 ctermbg=NONE cterm=NONE guifg=#87afaf guibg=NONE gui=NONE
+hi Special ctermfg=110 ctermbg=NONE cterm=NONE guifg=#87afaf guibg=NONE gui=NONE
 hi Noise ctermfg=255 ctermbg=NONE cterm=NONE guifg=#eeeeee guibg=NONE gui=NONE
 
 " elixir
@@ -59,8 +59,8 @@ hi def link     goUnsignedInts      Key
 hi def link     goFloats            Key
 hi def link     goComplexes         Key
 
-hi def link   	goVarAssign         Normal
-hi def link   	goVarDefs           Normal
+" hi def link   	goVarAssign         Normal
+" hi def link   	goVarDefs           Normal
 hi def link     goImport            Include
 hi def link     goPackage           Define
 hi def link     goVar               Define
